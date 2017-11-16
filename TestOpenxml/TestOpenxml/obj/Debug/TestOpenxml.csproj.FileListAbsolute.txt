@@ -1,0 +1,12 @@
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\bin\Debug\TestOpenxml.exe.config
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\bin\Debug\TestOpenxml.exe
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\bin\Debug\TestOpenxml.pdb
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\obj\Debug\TestOpenxml.Form1.resources
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\obj\Debug\TestOpenxml.Properties.Resources.resources
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\obj\Debug\TestOpenxml.csproj.GenerateResource.Cache
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\obj\Debug\TestOpenxml.exe
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\obj\Debug\TestOpenxml.pdb
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\bin\Debug\DocumentFormat.OpenXml.dll
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\bin\Debug\EntityFramework.dll
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\bin\Debug\EntityFramework.xml
+E:\Admin\OpenXml\TestOpenxml\TestOpenxml\obj\Debug\TestOpenxml.csprojResolveAssemblyReference.cache

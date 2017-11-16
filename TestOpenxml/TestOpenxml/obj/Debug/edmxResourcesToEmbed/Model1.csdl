@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestOpenXMlModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Contents" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="An">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Contentas" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="QuestionID" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="TestOpenXMlEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Questions" EntityType="Self.Question" />
+    <EntitySet Name="Ans" EntityType="Self.An" />
+  </EntityContainer>
+</Schema>

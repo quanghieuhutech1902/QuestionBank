@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TestOpenXMlModelStoreContainer" CdmEntityContainer="TestOpenXMlEntities">
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="TestOpenXMlModel.Question">
+        <MappingFragment StoreEntitySet="Question">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ans">
+      <EntityTypeMapping TypeName="TestOpenXMlModel.An">
+        <MappingFragment StoreEntitySet="Ans">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Contentas" ColumnName="Contentas" />
+          <ScalarProperty Name="QuestionID" ColumnName="QuestionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
